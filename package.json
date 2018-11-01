@@ -1,0 +1,31 @@
+{
+  "name": "@split-demo/app-list",
+  "version": "0.1.0",
+  "description": "Split Demo List App",
+  "main": "./src/App.js",
+  "repository": "",
+  "author": "Miloš Rašić <milos.rasic@gmail.com> (https://github.com/MilosRasic)",
+  "license": "MIT",
+  "dependencies": {
+    "@split-demo/shared-components": "latest",
+    "@split-demo/shared-deps": "latest",
+    "react-graceful-image": "^1.2.9",
+    "react-masonry-component": "^6.2.1",
+    "react-slick": "^0.23.1",
+    "slick-carousel": "^1.8.1",
+    "truncate": "^2.0.1",
+    "tutti-ch-styleguide": "^2.0.23"
+  },
+  "devDependencies": {
+    "@split-demo/build-deps": "latest",
+    "@split-demo/shared-config": "latest",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "./node_modules/.bin/webpack --bail --config make-webpack-config.js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "https://api.tutti.ch/v10"
+}
