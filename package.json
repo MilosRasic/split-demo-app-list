@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "Split Demo List App",
   "main": "./src/App.js",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MilosRasic/split-demo-app-list"
+  },
   "author": "Miloš Rašić <milos.rasic@gmail.com> (https://github.com/MilosRasic)",
   "license": "MIT",
   "dependencies": {
